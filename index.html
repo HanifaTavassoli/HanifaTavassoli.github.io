@@ -27,5 +27,190 @@
 
     <title>Project</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <ion-icon name="logo-ionic" size="large"></ion-icon>
+        <strong>ionicons</strong>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#about" class="main-nav-link">About</a></li>
+          <li><a href="#projects" class="main-nav-link">Projects</a></li>
+          <li><a href="#contact" class="main-nav-link">Contact </a></li>
+          <li>
+            <div class="nav-cta" id="clock"></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Hi, I'am <br />Hanifa Tavassoli.</h1>
+            <p class="hero-description">
+              I am a web developer, I'm still learning and trying new things to
+              add to my knowledge as much as possible. and committed to
+              expanding my skillset and staying up-to-date with the latest
+              developments in web development.
+            </p>
+            <a
+              href="https://github.com/HanifaTavassoli"
+              target="_blank"
+              alt="github"
+              class="btn btn--full"
+              >GitHub</a
+            >
+            <a href="#" class="btn btn--outline" alt="downlaod-cv">
+              <ion-icon name="download"></ion-icon>
+              Download CV</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <img src="img/hero-img.png" alt="hero-img" class="hero-img" />
+          </div>
+        </div>
+      </section>
+      <section class="section-projects" id="projects">
+        <div class="container center-text">
+          <span class="subheading">Projects</span>
+          <h2 class="heading-secondary">My Recent Project</h2>
+        </div>
+        <div class="projects container grid grid--3-cols maring-bottom-md">
+          <div class="project">
+            <img
+              src="img/projects/project1.jpg"
+              alt="project img"
+              class="project-img"
+            />
+          </div>
+          <div class="project">
+            <img
+              src="img/projects/project2.jpg"
+              alt="project img"
+              class="project-img"
+            />
+          </div>
+          <div class="project">
+            <img
+              src="img/projects/project3.jpg"
+              alt="project img"
+              class="project-img"
+            />
+          </div>
+        </div>
+        <div class="container all-projects">
+          <a href="#" class="link">All Projects &rarr;</a>
+        </div>
+      </section>
+      <section class="section-cta" id="contact">
+        <div class="container">
+          <h2 class="heading-secondary cta-title">Contact Me</h2>
+          <div class="cta-main-box grid grid--2-cols">
+            <div class="cta-box">
+              <div class="cta margin-bottom-md">
+                <ion-icon name="home-outline" size="large" class="cta-icon">
+                </ion-icon>
+                <div class="cta-content">
+                  <h4 class="heading-quaternary">My Location</h4>
+                  <p class="cta-text">Herat, Afghanistan</p>
+                </div>
+              </div>
+              <div class="cta margin-bottom-md">
+                <ion-icon
+                  name="call-outline"
+                  size="large"
+                  class="cta-icon"
+                ></ion-icon>
+                <div class="cta-content">
+                  <h4 class="heading-quaternary">Phone Number</h4>
+                  <p class="cta-text">(+93)781 372 682</p>
+                </div>
+              </div>
+              <div class="cta margin-bottom-md">
+                <ion-icon
+                  name="mail-outline"
+                  size="large"
+                  class="cta-icon"
+                ></ion-icon>
+                <div class="cta-content">
+                  <h4 class="heading-quaternary">Email Adress</h4>
+                  <p class="cta-text">hanifatavassoli@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="cta-form">
+              <form action="#">
+                <div class="cta-form-box">
+                  <input type="text" placeholder="Your Name" />
+                </div>
+                <div class="cta-form-box">
+                  <input type="email" placeholder="Your Email" />
+                </div>
+                <div class="cta-form-box">
+                  <textarea name="" id="message" cols="30" rows="5">
+Your Message</textarea
+                  >
+                </div>
+                <button type="submit" class="btn--form">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer">
+      <div class="footer container grid grid--2-cols">
+        <p class="copyright">Copyright &copy; by HanifaTavassoli</p>
+        <div class="socials">
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/hanifa-tavassoli-b2455419b/"
+                alt="linkedin"
+                target="_blank"
+              >
+                <ion-icon
+                  calss="social-icon"
+                  name="logo-linkedin"
+                  size="large"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://twitter.com/hanifa10855351"
+                alt="twitter"
+                target="_blank"
+              >
+                <ion-icon
+                  calss="social-icon"
+                  name="logo-twitter"
+                  size="large"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://github.com/HanifaTavassoli"
+                alt="github"
+                target="_blank"
+              >
+                <ion-icon
+                  calss="social-icon"
+                  name="logo-github"
+                  size="large"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
